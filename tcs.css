@@ -1,0 +1,131 @@
+*{padding: 0;
+  margin:0;
+  list-style:none;
+}
+
+img{
+	border: none;
+}
+
+
+body{background: #03862C}
+
+
+.box{
+	height: 600px;
+	width:  600px;
+	position: relative;
+	top: -6px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-image: url(img/beijin.png);
+	background-size:cover;
+	padding-top: 5px;
+	z-index: -1
+	
+
+
+}
+
+.block{
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+.she{
+  background-image:url(img/she.png);
+  	   background-size:cover;
+}
+
+
+.shiwu{
+	background-image:url(img/tcs.png);
+	   background-size:cover;
+
+}
+
+
+.over{
+	position:absolute;
+	height: 0px;
+	width: 0px;
+	background-image:url(img/over.png);
+	background-size:cover;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	overflow: hidden;
+
+
+}
+
+
+.zailai{
+	height: 40px;
+	width: 80px;
+	background:red;
+	float: left;
+	margin-top: 270px;
+	margin-left: 100px;
+    transition:transform 1s ease;
+    	transform: translateX(-300%);
+}
+
+
+.tuichu{
+	height: 40px;
+	width: 80px;
+	background:yellow;
+    float: left;
+   	margin-top: 270px;
+    margin-left: 130px;
+   	transition:transform 1s ease;
+   	transform: translateX(300%);
+
+}
+
+
+.cao{height: 38px;
+      width: 600px;
+       margin: -17px auto;
+      background: url(img/cao.png);
+      z-index: -5;
+       position: relative;}
+
+
+
+.top{width: 600px;
+     height: 113px;
+     margin: 0 auto;
+     background:url(img/top.png);
+     z-index: 999}
+
+
+
+
+.one{height: 739px;
+width: 600px;
+box-shadow: 1px 9px 20px #0D4D21;
+position: relative;
+margin: 0px auto;}
+
+
+.jishu{height: 25px;
+       width: 60px;
+       background:transparent;
+       position: absolute;
+       top:55px;
+       left: 130px;
+       font-size: 24px;
+       color: #fff;
+       line-height: 25px;
+       text-align: right;
+       font-weight: 800
+
+       }
